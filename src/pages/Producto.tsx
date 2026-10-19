@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router';
-import { Check, MapPin, Minus, Plus, RefreshCcw, Truck } from 'lucide-react';
-import { CATEGORIAS, SUBCATEGORIAS, TALLES } from '@/config/tienda';
+import { MapPin, Minus, Plus, RefreshCcw, Truck } from 'lucide-react';
+import { CATEGORIAS, SUBCATEGORIAS, TALLES, TIENDA } from '@/config/tienda';
 import { useCarrito } from '@/context/CarritoContext';
 import { useProducto, useProductos } from '@/hooks/useProductos';
 import { formatPrecio } from '@/lib/formato';
@@ -140,17 +140,16 @@ const ProductoDetalle = ({ slug }: { slug: string }) => {
                 </div>
               ) : (
                 <p className="mb-8 rounded-2xl bg-white p-5 text-[15px]">
-                  Este producto está agotado. Escribinos a{' '}
-                  <a href="mailto:treeargentina@gmail.com" className="font-semibold underline">treeargentina@gmail.com</a> y te avisamos cuando vuelva.
+                  Este producto está agotado. Para consultar disponibilidad, escribinos a{' '}
+                  <a href={`mailto:${TIENDA.contacto.email}`} className="font-semibold underline">{TIENDA.contacto.email}</a>.
                 </p>
               )}
 
               <ul className="divide-y divide-linea border-y border-linea text-[15px]">
                 {[
                   { icono: Truck, t: 'Envíos a todo el país con Shipnow. En CABA también por moto.' },
-                  { icono: MapPin, t: 'Retiro sin cargo en Av. Santa Fe 1670, de lunes a sábados de 11 a 19 hs.' },
-                  { icono: RefreshCcw, t: 'Cambios dentro de los 30 días con etiquetas y packaging originales.' },
-                  { icono: Check, t: 'Producto original, pensado por skaters.' },
+                  { icono: MapPin, t: 'Retiro en Av. Santa Fe 1670, de lunes a sábados de 11 a 19 hs.' },
+                  { icono: RefreshCcw, t: 'Cambios dentro de los 30 días corridos, con factura, etiquetas y packaging originales.' },
                 ].map(({ icono: Icono, t }) => (
                   <li key={t} className="flex gap-3 py-3.5">
                     <Icono size={19} className="mt-0.5 flex-none text-azul" />

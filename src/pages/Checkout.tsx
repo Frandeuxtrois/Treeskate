@@ -94,7 +94,7 @@ export const Checkout = () => {
                     <span className="flex-1">
                       <span className="flex justify-between gap-4 font-semibold">
                         {e.nombre}
-                        <span>{e.costo === 0 ? 'Gratis' : 'A cotizar'}</span>
+                        <span>{e.costo === 0 ? 'En el local' : 'A cotizar'}</span>
                       </span>
                       <span className="mt-1 block text-sm text-gris">{e.detalle}</span>
                     </span>
@@ -142,7 +142,7 @@ export const Checkout = () => {
             </ul>
             <div className="space-y-2 border-t border-linea pt-4 text-[15px]">
               <div className="flex justify-between"><span>Subtotal</span><span>{formatPrecio(subtotal)}</span></div>
-              <div className="flex justify-between"><span>Envío</span><span>{envio === 'retiro' ? 'Gratis' : 'A cotizar'}</span></div>
+              <div className="flex justify-between"><span>Envío</span><span>{envio === 'retiro' ? 'Retiro en el local' : 'A cotizar'}</span></div>
               <div className="flex justify-between pt-2 text-xl font-bold"><span>Total</span><span>{formatPrecio(subtotal)}</span></div>
             </div>
             <button type="submit" disabled={isSubmitting} className="btn btn-rojo mt-6 w-full">Confirmar pedido</button>

@@ -102,6 +102,8 @@ supabase/schema.sql       Esquema para la etapa 2. NO aplicado todavía.
 - `whatsapp`: no publican uno. Si lo pasan, se carga en `TIENDA.contacto.whatsapp` (formato `549…`) y el checkout pasa a WhatsApp solo.
 - Nombres de variantes "Modelo 1/2/3": en su web son publicaciones duplicadas sin color indicado.
 - Stock real: hoy solo "Remera Tree Sunrise" figura agotada.
+- Horario: su página de cambios dice 11 a 20:30; el resto del sitio, 11 a 19 (usamos 11 a 19).
+- Medios de pago y quién paga Shipnow: su web no lo informa.
 
 **Regla: no inventar datos de TREE** (cuotas, tiempos de despacho, cantidad de ventas, "más vendido", provincias, etc.).
 Si una sección necesita un dato que no tenemos, usar algo derivado de los datos reales (por ejemplo,

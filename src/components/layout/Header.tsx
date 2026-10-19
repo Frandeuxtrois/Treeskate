@@ -19,7 +19,7 @@ export const Header = () => {
 
   return (
     <header className="sticky top-0 z-30 border-b border-linea bg-papel/90 backdrop-blur-md">
-      <div className="wrap flex h-[72px] items-center justify-between gap-4">
+      <div className="flex h-[72px] w-full px-4 sm:px-6 lg:px-10 items-center justify-between gap-4">
         <Link to="/" aria-label="TREE, inicio">
           <img src="/img/logo.png" alt="TREE" className="h-[34px] w-auto" />
         </Link>

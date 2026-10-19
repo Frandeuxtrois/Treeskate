@@ -92,10 +92,12 @@ export const ENVIOS = [
 
 export type MetodoEnvio = (typeof ENVIOS)[number]['id'];
 
+// Texto de treeskate.com/cambios-y-devoluciones. PENDIENTE: esa página dice horario 11 a 20:30; el resto del sitio, 11 a 19.
 export const POLITICA_CAMBIOS = [
-  'Los cambios se realizan dentro de los 30 días corridos desde que recibiste el producto.',
-  'En el local: traé la factura y el producto con sus etiquetas y packaging originales.',
-  'Si compraste desde el interior, comunicate al (011) 5811-1336 y coordinamos.',
-  'Se reintegra el monto abonado, en efectivo o tarjeta, con o sin descuento.',
-  'Si el producto no coincide con tu pedido o llegó dañado, TREE se hace cargo del envío y el retiro.',
+  'Los cambios deben realizarse dentro de los 30 días corridos desde la fecha de recepción del producto.',
+  'En el local: presentá la factura de compra y el producto con sus etiquetas y packaging originales.',
+  'Si compraste desde el interior, comunicate al (011) 5811-1336.',
+  'Las devoluciones proceden si el talle o modelo no corresponde al elegido en la compra, o si el producto llegó dañado.',
+  'Se toma el valor abonado, ya sea en efectivo o con tarjeta, con o sin descuento.',
+  'Si el producto no corresponde a la orden de compra o llegó dañado, TREE se hace cargo del costo de envío y retiro.',
 ];

@@ -32,7 +32,7 @@ export const Inicio = () => {
   return (
     <>
       <section className="relative h-[min(88vh,820px)] min-h-[560px] overflow-hidden text-white">
-        <img src="/img/hero.jpg" alt="Skater saltando en un skatepark de Buenos Aires" className="absolute inset-0 h-full w-full object-cover object-[60%_30%]" />
+        <img src="/img/hero.jpg" alt="Skater saltando en un skatepark" className="absolute inset-0 h-full w-full object-cover object-[60%_0%]" />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(8,12,24,.82)_0%,rgba(8,12,24,.45)_45%,rgba(8,12,24,0)_75%),linear-gradient(0deg,rgba(8,12,24,.55),transparent_40%)]" />
         <div className="wrap relative z-10 flex h-full flex-col justify-end pb-16 pt-10">
           <div className="mb-5 flex items-center gap-2.5 text-[13px] font-semibold uppercase tracking-[2px] before:h-[3px] before:w-[34px] before:bg-rojo">
@@ -41,13 +41,9 @@ export const Inicio = () => {
           <h1 className="display max-w-[11ch] text-[clamp(52px,7.6vw,116px)]">
             Hecho por <span className="text-rojo">skaters</span> para skaters
           </h1>
-          <p className="mb-8 mt-6 max-w-[470px] text-[clamp(16px,1.6vw,19px)] leading-relaxed text-[#e6e6ea]">
+          <p className="mt-6 max-w-[470px] text-[clamp(16px,1.6vw,19px)] leading-relaxed text-[#e6e6ea]">
             Tablas, zapatillas, ropa y accesorios de las marcas que se usan en la calle. Comprá online o vení al local en Av. Santa Fe.
           </p>
-          <div className="flex flex-wrap gap-3">
-            <Link to="/tienda" className="btn btn-rojo">Ver la tienda <ArrowRight size={16} /></Link>
-            <a href="#local" className="btn btn-borde">Visitá el local</a>
-          </div>
         </div>
       </section>
 
@@ -92,7 +88,7 @@ export const Inicio = () => {
         <div className="wrap">
           <div className="mb-10 flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
             <div>
-              <div className="kicker">Lo más buscado</div>
+              <div className="kicker">Selección</div>
               <h2 className="display text-[clamp(40px,5.5vw,72px)]">Destacados</h2>
             </div>
             <Link to="/tienda" className="link-subrayado">Ver los {productos.length} productos</Link>
@@ -114,7 +110,7 @@ export const Inicio = () => {
         <div className="wrap grid lg:grid-cols-3">
           {[
             { icono: Truck, t: 'Envíos a todo el país', d: 'Con Shipnow, y en moto dentro de CABA' },
-            { icono: RefreshCcw, t: 'Cambios sin vueltas', d: 'Tenés 30 días desde que lo recibís' },
+            { icono: RefreshCcw, t: 'Cambios y devoluciones', d: 'Dentro de los 30 días corridos desde la recepción' },
             { icono: MapPin, t: 'Retiro en el local', d: 'Av. Santa Fe 1670, CABA' },
           ].map(({ icono: Icono, t, d }) => (
             <div key={t} className="flex items-center gap-4 border-b border-white/25 px-2 py-7 last:border-0 lg:border-b-0 lg:border-r lg:px-6">
@@ -139,7 +135,7 @@ export const Inicio = () => {
           <div>
             <div className="kicker">Nosotros</div>
             <h2 className="display mb-6 text-[clamp(44px,6vw,84px)]">
-              Más de {anios} años <span className="text-rojo">rodando</span>
+              {anios} años <span className="text-rojo">rodando</span>
             </h2>
             {TIENDA.historia.map((p) => (
               <p key={p} className="mb-4 max-w-[520px] text-lg leading-relaxed text-[#3a3a40]">{p}</p>

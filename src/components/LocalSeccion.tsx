@@ -5,7 +5,7 @@ export const LocalSeccion = () => (
     <div className="wrap">
       <div className="grid overflow-hidden rounded-[28px] bg-azul text-white lg:grid-cols-[1fr_1.1fr]">
         <div className="px-7 py-10 sm:p-[60px]">
-          <div className="kicker !text-white/75">Vení a probarte</div>
+          <div className="kicker !text-white/75">Visitanos</div>
           <h2 className="display mb-7 text-[clamp(40px,5vw,66px)]">Nuestro local</h2>
           {[
             { l: 'Dirección', v: TIENDA.local.direccion },

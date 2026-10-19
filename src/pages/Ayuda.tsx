@@ -4,7 +4,7 @@ import { ENVIOS, POLITICA_CAMBIOS, TIENDA } from '@/config/tienda';
 const PASOS = [
   'Elegí los productos y agregalos al carrito. Lo ves arriba a la derecha.',
   'Elegí cómo lo querés recibir: retiro en el local, moto en CABA o envío con Shipnow.',
-  'Completá tus datos tal cual figuran en tu documento, así coinciden al retirar.',
+  'Completá tus datos: se usan para identificar tu compra al retirarla.',
   'Confirmá el pedido y mandalo a la tienda. Te respondemos con el pago y la entrega.',
 ];
 
