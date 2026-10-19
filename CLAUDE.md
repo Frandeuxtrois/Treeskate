@@ -156,6 +156,7 @@ Si Vercel está conectado al repo, cada push a `main` redeploya solo. Las imáge
 
 ## Deploy (demo)
 
+Publicada en **https://treeskate.vercel.app** (conectada al repo: cada push a `main` redeploya solo).
 Vercel: importar la carpeta o `npx vercel --prod`. Build `npm run build`, output `dist`. No necesita variables de entorno.
 Ver skill `deploy-vercel`. El `<meta name="robots" content="noindex">` evita que Google indexe la demo: **sacarlo recién en producción real**.
 
