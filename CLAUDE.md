@@ -134,6 +134,24 @@ Hay un agente (`catalogo-sync`) que hace el relevamiento contra treeskate.com y 
 - Sin `any`. Sin comentarios salvo que el porqué no sea obvio.
 - Todo dato de negocio vive en `src/config/tienda.ts`, no hardcodeado en páginas.
 
+## Repo
+
+- GitHub personal de Franco: **https://github.com/Frandeuxtrois/Treeskate** (rama `main`).
+- Identidad configurada **solo en este repo** (`git config user.*`): Franco Vigo · francotvigo@gmail.com. La PC es del trabajo: no tocar la config global de git.
+- `.gitattributes` fuerza LF. `capturas/`, `dist/` y `.env` están ignorados.
+
+## Administración del catálogo
+
+**Hoy (etapa 1):** el catálogo es código. Se agrega, edita o quita en `scripts/catalogo-fuente.json` → `npm run catalogo` → commit + push.
+Si Vercel está conectado al repo, cada push a `main` redeploya solo. Las imágenes quedan en `public/productos/`.
+
+**Etapa 2 (para TREE, sin tocar código):** panel `/admin` con login (Supabase Auth, solo emails de TREE):
+- Lista de productos con búsqueda; botón activar/desactivar (no se borra: queda el historial de pedidos).
+- Formulario: nombre, marca, categoría, precio, variantes (color/medida) y stock por talle.
+- Fotos: arrastrar y soltar desde el celular o la PC → se comprimen en el navegador a WebP de 1200px → se suben al bucket `productos` de Supabase Storage → se guarda el path en `variantes.imagen`.
+- Los cambios se ven al instante en la tienda (sin deploy).
+- Recomendación para las fotos: cuadradas, fondo blanco o liso, producto centrado, mínimo 1000×1000.
+
 ## Deploy (demo)
 
 Vercel: importar la carpeta o `npx vercel --prod`. Build `npm run build`, output `dist`. No necesita variables de entorno.
