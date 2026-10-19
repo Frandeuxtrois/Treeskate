@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npm run typecheck)",
+      "Bash(npm run catalogo)",
+      "Bash(npm run catalogo:*)",
+      "Bash(npm run capturas)",
+      "Bash(npm run capturas:*)",
+      "Bash(npx tsc:*)",
+      "WebFetch(domain:www.treeskate.com)",
+      "WebFetch(domain:treeskate.com)"
+    ]
+  }
+}

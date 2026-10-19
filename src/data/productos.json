@@ -1,0 +1,942 @@
+[
+  {
+    "id": "tabla-maple-vog-mariano-gonzalez",
+    "slug": "tabla-maple-vog-mariano-gonzalez",
+    "nombre": "Tabla Maple Vog Mariano González",
+    "marca": "Vog",
+    "categoria": "skate",
+    "subcategoria": "tablas",
+    "precio": 90000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/tabla-maple-vog-mariano-gonzalez-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "tabla-maple-vog",
+    "slug": "tabla-maple-vog",
+    "nombre": "Tabla Maple Vog",
+    "marca": "Vog",
+    "categoria": "skate",
+    "subcategoria": "tablas",
+    "precio": 90000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/tabla-maple-vog-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "tabla-maple-craim",
+    "slug": "tabla-maple-craim",
+    "nombre": "Tabla Maple Craim",
+    "marca": "Craim",
+    "categoria": "skate",
+    "subcategoria": "tablas",
+    "precio": 90000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/tabla-maple-craim-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "tabla-maple-grizzly-sanskrit",
+    "slug": "tabla-maple-grizzly-sanskrit",
+    "nombre": "Tabla Maple Grizzly Sanskrit",
+    "marca": "Grizzly",
+    "categoria": "skate",
+    "subcategoria": "tablas",
+    "precio": 95000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/tabla-maple-grizzly-sanskrit-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "tabla-maple-plas",
+    "slug": "tabla-maple-plas",
+    "nombre": "Tabla Maple Plas",
+    "marca": "Plas",
+    "categoria": "skate",
+    "subcategoria": "tablas",
+    "precio": 90000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/tabla-maple-plas-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "tabla-maple-lab-canadian",
+    "slug": "tabla-maple-lab-canadian",
+    "nombre": "Tabla Maple Lab Canadian",
+    "marca": "Lab",
+    "categoria": "skate",
+    "subcategoria": "tablas",
+    "precio": 110000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "8.25\"",
+        "imagen": "/productos/tabla-maple-lab-canadian-1.webp"
+      },
+      {
+        "etiqueta": "8.5\"",
+        "imagen": "/productos/tabla-maple-lab-canadian-2.webp"
+      },
+      {
+        "etiqueta": "8.75\"",
+        "imagen": "/productos/tabla-maple-lab-canadian-3.webp"
+      }
+    ]
+  },
+  {
+    "id": "rulemanes-nothing-special",
+    "slug": "rulemanes-nothing-special",
+    "nombre": "Rulemanes Nothing Special",
+    "marca": "Nothing Special",
+    "categoria": "skate",
+    "subcategoria": "rulemanes",
+    "precio": 50000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/rulemanes-nothing-special-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "ous-emergente-prt-ocre-essencial",
+    "slug": "ous-emergente-prt-ocre-essencial",
+    "nombre": "Öus Emergente Prt Ocre Essencial",
+    "marca": "Öus",
+    "categoria": "zapatillas",
+    "subcategoria": "zapatillas",
+    "precio": 100000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/ous-emergente-prt-ocre-essencial-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "ous-arquitetonico-prt-cinza-esc-essencial",
+    "slug": "ous-arquitetonico-prt-cinza-esc-essencial",
+    "nombre": "Öus Arquitetônico Prt Cinza Esc Essencial",
+    "marca": "Öus",
+    "categoria": "zapatillas",
+    "subcategoria": "zapatillas",
+    "precio": 110000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/ous-arquitetonico-prt-cinza-esc-essencial-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "ous-imigrante-notorio-essencial",
+    "slug": "ous-imigrante-notorio-essencial",
+    "nombre": "Öus Imigrante Notório Essencial",
+    "marca": "Öus",
+    "categoria": "zapatillas",
+    "subcategoria": "zapatillas",
+    "precio": 140000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/ous-imigrante-notorio-essencial-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "ous-imigrante-pb-gold-essencial",
+    "slug": "ous-imigrante-pb-gold-essencial",
+    "nombre": "Öus Imigrante PB Gold Essencial",
+    "marca": "Öus",
+    "categoria": "zapatillas",
+    "subcategoria": "zapatillas",
+    "precio": 140000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/ous-imigrante-pb-gold-essencial-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "ous-dots-marrom-branco-preto",
+    "slug": "ous-dots-marrom-branco-preto",
+    "nombre": "Öus Döts Marrom Branco Preto",
+    "marca": "Öus",
+    "categoria": "zapatillas",
+    "subcategoria": "zapatillas",
+    "precio": 140000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/ous-dots-marrom-branco-preto-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "ous-dots-prt-branco-ii",
+    "slug": "ous-dots-prt-branco-ii",
+    "nombre": "Öus Döts Prt Branco II",
+    "marca": "Öus",
+    "categoria": "zapatillas",
+    "subcategoria": "zapatillas",
+    "precio": 140000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/ous-dots-prt-branco-ii-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "ous-dots-prt-azul-ltx",
+    "slug": "ous-dots-prt-azul-ltx",
+    "nombre": "Öus Döts Prt Azul LTX",
+    "marca": "Öus",
+    "categoria": "zapatillas",
+    "subcategoria": "zapatillas",
+    "precio": 140000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/ous-dots-prt-azul-ltx-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "etnies-windrow",
+    "slug": "etnies-windrow",
+    "nombre": "Etnies Windrow",
+    "marca": "Etnies",
+    "categoria": "zapatillas",
+    "subcategoria": "zapatillas",
+    "precio": 99000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/etnies-windrow-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "remera-grizzly-outdoor-division-drift",
+    "slug": "remera-grizzly-outdoor-division-drift",
+    "nombre": "Remera Grizzly Outdoor Division Drift",
+    "marca": "Grizzly",
+    "categoria": "ropa",
+    "subcategoria": "remeras",
+    "precio": 39000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/remera-grizzly-outdoor-division-drift-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "remera-grizzly-og-bear-white-black",
+    "slug": "remera-grizzly-og-bear-white-black",
+    "nombre": "Remera Grizzly OG Bear White/Black",
+    "marca": "Grizzly",
+    "categoria": "ropa",
+    "subcategoria": "remeras",
+    "precio": 39000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/remera-grizzly-og-bear-white-black-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "remera-thrasher-antihero",
+    "slug": "remera-thrasher-antihero",
+    "nombre": "Remera Thrasher Antihero",
+    "marca": "Thrasher",
+    "categoria": "ropa",
+    "subcategoria": "remeras",
+    "precio": 45000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/remera-thrasher-antihero-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "remera-oversize-tree-origami",
+    "slug": "remera-oversize-tree-origami",
+    "nombre": "Remera Oversize Tree Origami",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "remeras",
+    "precio": 35000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/remera-oversize-tree-origami-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/remera-oversize-tree-origami-2.webp"
+      }
+    ]
+  },
+  {
+    "id": "remera-tree-h-a-s-d-gris",
+    "slug": "remera-tree-h-a-s-d-gris",
+    "nombre": "Remera Tree H.A.S.D Gris",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "remeras",
+    "precio": 25000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/remera-tree-h-a-s-d-gris-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "remera-tree-firma",
+    "slug": "remera-tree-firma",
+    "nombre": "Remera Tree Firma",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "remeras",
+    "precio": 25000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/remera-tree-firma-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "remera-tree-m-l-tatami-gris",
+    "slug": "remera-tree-m-l-tatami-gris",
+    "nombre": "Remera Tree M/L Tatami Gris",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "remeras",
+    "precio": 25000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/remera-tree-m-l-tatami-gris-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "remera-tree-eye-gris",
+    "slug": "remera-tree-eye-gris",
+    "nombre": "Remera Tree Eye Gris",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "remeras",
+    "precio": 25000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/remera-tree-eye-gris-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "remera-tree-sunrise",
+    "slug": "remera-tree-sunrise",
+    "nombre": "Remera Tree Sunrise",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "remeras",
+    "precio": null,
+    "agotado": true,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/remera-tree-sunrise-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "buzo-thrasher-argentina",
+    "slug": "buzo-thrasher-argentina",
+    "nombre": "Buzo Thrasher Argentina",
+    "marca": "Thrasher",
+    "categoria": "ropa",
+    "subcategoria": "buzos",
+    "precio": 99000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/buzo-thrasher-argentina-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "buzo-tree-batik",
+    "slug": "buzo-tree-batik",
+    "nombre": "Buzo Tree Batik",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "buzos",
+    "precio": 60000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/buzo-tree-batik-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "buzo-tree-h-a-s-d-gris",
+    "slug": "buzo-tree-h-a-s-d-gris",
+    "nombre": "Buzo Tree H.A.S.D Gris",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "buzos",
+    "precio": 60000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/buzo-tree-h-a-s-d-gris-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "buzo-tree-crew-inst",
+    "slug": "buzo-tree-crew-inst",
+    "nombre": "Buzo Tree Crew Inst",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "buzos",
+    "precio": 45000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Mostaza",
+        "imagen": "/productos/buzo-tree-crew-inst-1.webp"
+      },
+      {
+        "etiqueta": "Rosa",
+        "imagen": "/productos/buzo-tree-crew-inst-2.webp"
+      }
+    ]
+  },
+  {
+    "id": "campera-bomber-tree",
+    "slug": "campera-bomber-tree",
+    "nombre": "Campera Bomber Tree",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "camperas",
+    "precio": 120000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/campera-bomber-tree-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/campera-bomber-tree-2.webp"
+      }
+    ]
+  },
+  {
+    "id": "rompevientos-grizzly-outdoor-division-navy-blue",
+    "slug": "rompevientos-grizzly-outdoor-division-navy-blue",
+    "nombre": "Rompevientos Grizzly Outdoor Division Navy Blue",
+    "marca": "Grizzly",
+    "categoria": "ropa",
+    "subcategoria": "camperas",
+    "precio": 120000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/rompevientos-grizzly-outdoor-division-navy-blue-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "anorak-tree-verde",
+    "slug": "anorak-tree-verde",
+    "nombre": "Anorak Tree Verde",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "camperas",
+    "precio": 80000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/anorak-tree-verde-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "campera-thrasher-flame",
+    "slug": "campera-thrasher-flame",
+    "nombre": "Campera Thrasher Flame",
+    "marca": "Thrasher",
+    "categoria": "ropa",
+    "subcategoria": "camperas",
+    "precio": 99000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/campera-thrasher-flame-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "camisa-tree-adventure",
+    "slug": "camisa-tree-adventure",
+    "nombre": "Camisa Tree Adventure",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "camisas",
+    "precio": 65000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Beige",
+        "imagen": "/productos/camisa-tree-adventure-1.webp"
+      },
+      {
+        "etiqueta": "Gris",
+        "imagen": "/productos/camisa-tree-adventure-2.webp"
+      }
+    ]
+  },
+  {
+    "id": "camisaco-tree",
+    "slug": "camisaco-tree",
+    "nombre": "Camisaco Tree",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "camisas",
+    "precio": 75000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/camisaco-tree-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/camisaco-tree-2.webp"
+      },
+      {
+        "etiqueta": "Modelo 3",
+        "imagen": "/productos/camisaco-tree-3.webp"
+      }
+    ]
+  },
+  {
+    "id": "pantalon-tree-90tas-corderoy-verde",
+    "slug": "pantalon-tree-90tas-corderoy-verde",
+    "nombre": "Pantalón Tree 90tas Corderoy Verde",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "pantalones",
+    "precio": 76000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/pantalon-tree-90tas-corderoy-verde-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "baggy-de-corderoy-tree",
+    "slug": "baggy-de-corderoy-tree",
+    "nombre": "Baggy de Corderoy Tree",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "pantalones",
+    "precio": 76000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/baggy-de-corderoy-tree-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "pantalon-tree-baggy",
+    "slug": "pantalon-tree-baggy",
+    "nombre": "Pantalón Tree Baggy",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "pantalones",
+    "precio": 60000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Marrón",
+        "imagen": "/productos/pantalon-tree-baggy-1.webp"
+      },
+      {
+        "etiqueta": "Jean",
+        "imagen": "/productos/pantalon-tree-baggy-2.webp"
+      },
+      {
+        "etiqueta": "Negro",
+        "imagen": "/productos/pantalon-tree-baggy-3.webp"
+      }
+    ]
+  },
+  {
+    "id": "pantalon-carpintero-tree-doble-rodilla",
+    "slug": "pantalon-carpintero-tree-doble-rodilla",
+    "nombre": "Pantalón Carpintero Tree Doble Rodilla",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "pantalones",
+    "precio": 79000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/pantalon-carpintero-tree-doble-rodilla-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/pantalon-carpintero-tree-doble-rodilla-2.webp"
+      }
+    ]
+  },
+  {
+    "id": "bermuda-classic-jean-tree",
+    "slug": "bermuda-classic-jean-tree",
+    "nombre": "Bermuda Classic Jean Tree",
+    "marca": "Tree",
+    "categoria": "ropa",
+    "subcategoria": "pantalones",
+    "precio": 48000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/bermuda-classic-jean-tree-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "gorra-grizzly-fire-starter",
+    "slug": "gorra-grizzly-fire-starter",
+    "nombre": "Gorra Grizzly Fire Starter",
+    "marca": "Grizzly",
+    "categoria": "accesorios",
+    "subcategoria": "gorras",
+    "precio": 45000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/gorra-grizzly-fire-starter-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "gorra-grizzly-fresh-as-a-flower-black",
+    "slug": "gorra-grizzly-fresh-as-a-flower-black",
+    "nombre": "Gorra Grizzly Fresh As A Flower Black",
+    "marca": "Grizzly",
+    "categoria": "accesorios",
+    "subcategoria": "gorras",
+    "precio": 45000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/gorra-grizzly-fresh-as-a-flower-black-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "gorra-grizzly-redwood-forest-black",
+    "slug": "gorra-grizzly-redwood-forest-black",
+    "nombre": "Gorra Grizzly Redwood Forest Black",
+    "marca": "Grizzly",
+    "categoria": "accesorios",
+    "subcategoria": "gorras",
+    "precio": 45000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/gorra-grizzly-redwood-forest-black-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "gorra-grizzly-og-bear-black",
+    "slug": "gorra-grizzly-og-bear-black",
+    "nombre": "Gorra Grizzly OG Bear Black",
+    "marca": "Grizzly",
+    "categoria": "accesorios",
+    "subcategoria": "gorras",
+    "precio": 39000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/gorra-grizzly-og-bear-black-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "beanie-grizzly-outdoor-div-bear-black",
+    "slug": "beanie-grizzly-outdoor-div-bear-black",
+    "nombre": "Beanie Grizzly Outdoor Div Bear Black",
+    "marca": "Grizzly",
+    "categoria": "accesorios",
+    "subcategoria": "gorras",
+    "precio": 39000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/beanie-grizzly-outdoor-div-bear-black-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "beanie-grizzly-redwood-forest",
+    "slug": "beanie-grizzly-redwood-forest",
+    "nombre": "Beanie Grizzly Redwood Forest",
+    "marca": "Grizzly",
+    "categoria": "accesorios",
+    "subcategoria": "gorras",
+    "precio": 39000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Military Green",
+        "imagen": "/productos/beanie-grizzly-redwood-forest-1.webp"
+      },
+      {
+        "etiqueta": "Black",
+        "imagen": "/productos/beanie-grizzly-redwood-forest-2.webp"
+      }
+    ]
+  },
+  {
+    "id": "gorra-tree-ajedrez",
+    "slug": "gorra-tree-ajedrez",
+    "nombre": "Gorra Tree Ajedrez",
+    "marca": "Tree",
+    "categoria": "accesorios",
+    "subcategoria": "gorras",
+    "precio": 22000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/gorra-tree-ajedrez-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/gorra-tree-ajedrez-2.webp"
+      },
+      {
+        "etiqueta": "Modelo 3",
+        "imagen": "/productos/gorra-tree-ajedrez-3.webp"
+      }
+    ]
+  },
+  {
+    "id": "gorra-tree-arbol",
+    "slug": "gorra-tree-arbol",
+    "nombre": "Gorra Tree Árbol",
+    "marca": "Tree",
+    "categoria": "accesorios",
+    "subcategoria": "gorras",
+    "precio": 22000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/gorra-tree-arbol-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/gorra-tree-arbol-2.webp"
+      },
+      {
+        "etiqueta": "Modelo 3",
+        "imagen": "/productos/gorra-tree-arbol-3.webp"
+      }
+    ]
+  },
+  {
+    "id": "gorra-tree-origami",
+    "slug": "gorra-tree-origami",
+    "nombre": "Gorra Tree Origami",
+    "marca": "Tree",
+    "categoria": "accesorios",
+    "subcategoria": "gorras",
+    "precio": 22000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/gorra-tree-origami-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/gorra-tree-origami-2.webp"
+      },
+      {
+        "etiqueta": "Modelo 3",
+        "imagen": "/productos/gorra-tree-origami-3.webp"
+      }
+    ]
+  },
+  {
+    "id": "rinonera-loop-east",
+    "slug": "rinonera-loop-east",
+    "nombre": "Riñonera Loop East",
+    "marca": "Loop",
+    "categoria": "accesorios",
+    "subcategoria": "bolsos",
+    "precio": 37000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/rinonera-loop-east-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/rinonera-loop-east-2.webp"
+      },
+      {
+        "etiqueta": "Modelo 3",
+        "imagen": "/productos/rinonera-loop-east-3.webp"
+      },
+      {
+        "etiqueta": "Modelo 4",
+        "imagen": "/productos/rinonera-loop-east-4.webp"
+      }
+    ]
+  },
+  {
+    "id": "rinonera-loop-delta",
+    "slug": "rinonera-loop-delta",
+    "nombre": "Riñonera Loop Delta",
+    "marca": "Loop",
+    "categoria": "accesorios",
+    "subcategoria": "bolsos",
+    "precio": 33000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/rinonera-loop-delta-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/rinonera-loop-delta-2.webp"
+      }
+    ]
+  },
+  {
+    "id": "rinonera-loop-mike",
+    "slug": "rinonera-loop-mike",
+    "nombre": "Riñonera Loop Mike",
+    "marca": "Loop",
+    "categoria": "accesorios",
+    "subcategoria": "bolsos",
+    "precio": 37000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/rinonera-loop-mike-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "rinonera-loop-charly",
+    "slug": "rinonera-loop-charly",
+    "nombre": "Riñonera Loop Charly",
+    "marca": "Loop",
+    "categoria": "accesorios",
+    "subcategoria": "bolsos",
+    "precio": 32000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Única",
+        "imagen": "/productos/rinonera-loop-charly-1.webp"
+      }
+    ]
+  },
+  {
+    "id": "mini-messenger-loop",
+    "slug": "mini-messenger-loop",
+    "nombre": "Mini Messenger Loop",
+    "marca": "Loop",
+    "categoria": "accesorios",
+    "subcategoria": "bolsos",
+    "precio": 31000,
+    "agotado": false,
+    "variantes": [
+      {
+        "etiqueta": "Modelo 1",
+        "imagen": "/productos/mini-messenger-loop-1.webp"
+      },
+      {
+        "etiqueta": "Modelo 2",
+        "imagen": "/productos/mini-messenger-loop-2.webp"
+      }
+    ]
+  }
+]
