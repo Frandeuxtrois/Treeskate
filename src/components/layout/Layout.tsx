@@ -3,6 +3,7 @@ import { Outlet, useLocation } from 'react-router';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { CarritoDrawer } from '@/components/layout/CarritoDrawer';
+import { BotonesFlotantes } from '@/components/layout/BotonesFlotantes';
 
 export const Layout = () => {
   const { pathname, hash } = useLocation();
@@ -28,6 +29,7 @@ export const Layout = () => {
         <Outlet />
       </main>
       <Footer />
+      <BotonesFlotantes />
       <CarritoDrawer />
     </>
   );
