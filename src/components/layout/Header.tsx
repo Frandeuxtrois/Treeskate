@@ -1,8 +1,14 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router';
 import { Menu, ShoppingBag, X } from 'lucide-react';
-import { CATEGORIAS } from '@/config/tienda';
+import { CATEGORIAS, TIENDA } from '@/config/tienda';
 import { useCarrito } from '@/context/CarritoContext';
+import { LogoFacebook, LogoInstagram } from '@/components/LogosRedes';
+
+const redes = [
+  { href: `https://instagram.com/${TIENDA.contacto.instagram}`, label: 'Instagram de TREE', Logo: LogoInstagram },
+  { href: `https://facebook.com/${TIENDA.contacto.facebook}`, label: 'Facebook de TREE', Logo: LogoFacebook },
+];
 
 const links = [
   ...CATEGORIAS.map((c) => ({ to: `/tienda/${c.id}`, label: c.nombre })),
@@ -43,7 +49,19 @@ export const Header = () => {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1 sm:gap-2">
+          {redes.map(({ href, label, Logo }) => (
+            <a
+              key={href}
+              href={href}
+              target="_blank"
+              rel="noopener"
+              aria-label={label}
+              className="grid h-10 w-10 place-items-center rounded-full transition hover:bg-black/5 hover:text-azul"
+            >
+              <Logo />
+            </a>
+          ))}
           <Link to="/tienda" className="btn btn-rojo hidden sm:inline-flex">
             Tienda
           </Link>
